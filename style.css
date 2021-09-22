@@ -27,7 +27,7 @@ html{
 #top_items{
     display: flex;
     flex-direction: column;
-    max-width: 475px;
+    max-width: 399px;
     align-items: center;
     margin-top: 8rem;
 }
@@ -79,8 +79,10 @@ html{
 .turq{
     background-color: #26BBA4;
     margin-bottom: 1rem;
+    border-bottom: 3px solid #167567;
 }
 
 .purp{
     background-color: #6174FF;
+    border-bottom: 3px solid #3749d3;
 }
