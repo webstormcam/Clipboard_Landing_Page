@@ -55,3 +55,32 @@ html{
     color: #9EABB2;
     padding: 0rem 1.2rem 0rem 1.2rem;
 }
+
+#buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    
+}
+
+.button_link{
+    color: white;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    width: 300px;
+    text-align: center;
+
+    
+    
+}
+
+.turq{
+    background-color: #26BBA4;
+    margin-bottom: 1rem;
+}
+
+.purp{
+    background-color: #6174FF;
+}
