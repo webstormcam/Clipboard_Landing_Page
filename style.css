@@ -100,4 +100,16 @@ html{
         max-width: 700px;
        
     }
+
+    #buttons{
+      
+     flex-direction: row;
+       
+        
+    }
+
+    .turq{
+       margin-bottom: 0rem;
+       
+    }
 }
