@@ -5,3 +5,53 @@
 html{
     font-family: 'Bai Jamjuree', sans-serif;
 }
+
+
+#content{
+    display: flex;
+    justify-content: center;
+}
+
+#top{
+    background-image: url('imgs/bg-header-mobile.png');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+
+#top_items{
+    display: flex;
+    flex-direction: column;
+    max-width: 475px;
+    align-items: center;
+    margin-top: 8rem;
+}
+
+.logo{
+    width: 8rem;
+    margin-bottom: 3rem;
+}
+
+.text{
+    text-align: center;
+}
+
+.top_text{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+    color: #4C545C;
+    margin-bottom: 1rem;
+}
+
+.top_text_grey{
+    line-height: 2rem;
+    font-size: 1.1rem;
+    color: #9EABB2;
+    padding: 0rem 1.2rem 0rem 1.2rem;
+}
