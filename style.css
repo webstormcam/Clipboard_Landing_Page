@@ -86,3 +86,18 @@ html{
     background-color: #6174FF;
     border-bottom: 3px solid #3749d3;
 }
+
+
+@media screen and (min-width:1024px){
+    #top{
+        background-image: url('imgs/bg-header-desktop.png');
+        background-position: none;
+        
+     
+    }
+
+    #top_items{
+        max-width: 700px;
+       
+    }
+}
