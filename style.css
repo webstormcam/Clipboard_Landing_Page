@@ -102,7 +102,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
    
    
     
@@ -110,7 +110,7 @@ body{
 
 #section2_items{
     max-width: 399px;
-    min-height: 100vh;
+  
 }
 
 .small_section_head{
@@ -157,6 +157,21 @@ body{
     font-weight: bold;
     color: #4C545C;
     margin-bottom: 1rem;
+}
+
+
+#section3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+   
+    
+}
+
+#section3_items{
+    max-width: 399px;
+    
 }
 
 
