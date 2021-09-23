@@ -174,6 +174,19 @@ body{
     
 }
 
+.section_3_top_words{
+    margin-bottom: 3.5rem;
+}
+
+.device_pic{
+    display: flex;
+    justify-content: center;
+}
+
+.devices{
+    width: 19rem;
+}
+
 
 @media screen and (min-width:1024px){
     #top{
