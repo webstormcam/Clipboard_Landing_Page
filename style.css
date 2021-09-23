@@ -165,7 +165,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 80vh;
     margin-top: 3rem;
    
     
@@ -321,6 +321,13 @@ body{
 
 .devices{
     width: 30rem ;
+}
+
+#section3{
+    min-height: 100vh;
+
+   
+    
 }
 
 #section3_items{
