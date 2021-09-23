@@ -102,14 +102,14 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    min-height: 100vh;
-    
+   
    
     
 }
 
-.section2_items{
+#section2_items{
     max-width: 399px;
+    min-height: 100vh;
 }
 
 .small_section_head{
@@ -126,6 +126,36 @@ body{
     font-size: 1.1rem;
     color: #9EABB2;
     padding: 0rem 1.2rem 0rem 1.2rem;
+}
+
+.img_and_stats{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.computer{
+    width: 19rem;
+    margin-bottom: 2rem;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.stat{
+    margin-top: 3rem;
+}
+
+.stat h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4C545C;
+    margin-bottom: 1rem;
 }
 
 
@@ -149,6 +179,7 @@ body{
 
     .top_text{
         font-size: 2.5rem;
+        margin-bottom: 2rem;
     
     }
 
@@ -186,6 +217,62 @@ body{
     .purp{
         margin-left: 0.5rem;
     }
+
+    .img_and_stats{
+    
+    flex-direction: row;
+    position: relative;
+   
+   
+
+}
+
+#section2_items{
+    max-width: 1024px;
+ align-items: center;
+ flex-direction: column;
+ display: flex;
+}
+
+.section_2_top_words{
+    max-width: 700px;
+}
+
+
+.small_section_head{
+    font-size: 2.4rem;
+
+
+}
+
+.small_section_para{
+    font-size: 1.1rem;
+    padding: 0rem;
+ 
+}
+
+
+
+.stat h3{
+    font-size: 1.8rem;
+   
+}
+
+.stat{
+ text-align: left;
+ margin-left: 6rem;
+ margin-right: 2rem;
+}
+
+
+
+.computer{
+    width: 30rem;
+    margin-bottom: 0rem;
+    margin-left: 2rem;
+   
+}
+
 }
 
 @media screen and (min-width:1440px){
@@ -228,6 +315,41 @@ body{
      .purp{
          margin-left: 0.8rem;
      }
+
+     #section2_items{
+        max-width: 1440px;
+     }
+
+
+     .small_section_head{
+        font-size: 2.8rem;
+    
+    
+    }
+    
+    .small_section_para{
+        font-size: 1.3rem;
+        padding: 0rem;
+     
+    }
+
+    .computer{
+        width: 47rem;
+        margin-bottom: 0rem;
+        margin-left: 0rem;
+        /* position: relative;
+        left: -7rem; */
+       
+    }
+
+    .stat h3{
+        font-size: 1.8rem;
+       
+    }
+
+    .stat p{
+        max-width: 450px;
+    }
 
    
 }
