@@ -103,6 +103,7 @@ body{
     display: flex;
     justify-content: center;
     min-height: 100vh;
+    margin-top: 3rem;
    
    
     
@@ -165,6 +166,7 @@ body{
     display: flex;
     justify-content: center;
     min-height: 100vh;
+    margin-top: 3rem;
    
     
 }
@@ -302,6 +304,19 @@ body{
    
 }
 
+.devices{
+    width: 30rem ;
+}
+
+#section3_items{
+    max-width: 1024px;
+
+}
+
+.section_3_top_words{
+    max-width: 800px;
+}
+
 }
 
 @media screen and (min-width:1440px){
@@ -371,6 +386,7 @@ body{
        
     }
 
+
     .stat h3{
         font-size: 1.8rem;
        
@@ -378,6 +394,15 @@ body{
 
     .stat p{
         max-width: 450px;
+    }
+
+    #section3_items{
+        max-width: 1440px;
+    
+    }
+
+    .devices{
+        width: 47rem;
     }
 
    
