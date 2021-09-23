@@ -189,6 +189,21 @@ body{
     width: 19rem;
 }
 
+#section4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    
+   
+    
+}
+
+#section4_items{
+    max-width: 399px;
+    
+}
+
 
 @media screen and (min-width:1024px){
     #top{
