@@ -204,6 +204,45 @@ body{
     
 }
 
+#features_companies{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.small_img{
+    width: 2.5rem;
+}
+
+.feature_header{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4C545C;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.feature_paragraph{
+    font-size: 1rem;
+    padding: 0rem 2rem 0rem 2rem;
+    text-align: center;
+    line-height: 1.5rem;
+    color: #9EABB2;
+}
+
 
 @media screen and (min-width:1024px){
     #top{
