@@ -255,10 +255,37 @@ body{
 .tech_company{
     margin-bottom: 3rem;
 }
-.section5_items{
+
+
+#section5{
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.section5_items{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.section_5_top_words{
+    max-width: 399px;
+}
+
+.bottom{
+   margin-top: 10rem;
+   display: flex;
+   flex-direction: column;
+}
+
+.bottom_logo{
+    width: 5rem;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
 }
 
 
@@ -410,6 +437,20 @@ body{
     justify-content: space-evenly;
     margin-top: 4rem;
 }
+
+.section_5_top_words{
+    max-width: 700px;
+}
+
+br{
+    display: none;
+}
+
+.bottom{
+    margin-top: 10rem;
+    
+    flex-direction: row;
+ }
 
 }
 
