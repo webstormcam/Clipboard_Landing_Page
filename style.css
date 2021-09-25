@@ -400,6 +400,8 @@ body{
 .features{
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: baseline;
+ 
     
 }
 
