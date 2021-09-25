@@ -67,7 +67,7 @@ body{
     padding: 0rem 1.2rem 0rem 1.2rem;
 }
 
-#buttons{
+.buttons{
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
@@ -249,6 +249,16 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 2rem;
+}
+
+.tech_company{
+    margin-bottom: 3rem;
+}
+.section5_items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -285,7 +295,7 @@ body{
         display: none;
     }
 
-    #buttons{
+    .buttons{
       
      flex-direction: row;
        
@@ -315,6 +325,7 @@ body{
     
     flex-direction: row;
     position: relative;
+    align-items:center;
    
    
 
@@ -392,6 +403,12 @@ body{
     
 }
 
+.companies{
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+
 }
 
 @media screen and (min-width:1440px){
@@ -461,6 +478,15 @@ body{
        
     }
 
+    .img_and_stats{
+    
+      
+        align-items:flex-start;
+       
+       
+    
+    }
+
 
     .stat h3{
         font-size: 1.8rem;
@@ -477,7 +503,7 @@ body{
     }
 
     .devices{
-        width: 47rem;
+        width: 50rem;
     }
 
    
