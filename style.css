@@ -269,21 +269,21 @@ body{
  align-items: center;
 }
 
-.section_5_top_words{
-    max-width: 399px;
-}
 
 .bottom{
    margin-top: 10rem;
    display: flex;
    flex-direction: column;
    align-items: center;
-   margin-bottom: 2rem;
+   padding-bottom: 2rem;
+   padding-top: 2rem;
+   background-color: #F2F2F2;
+   width: 100%;
    
 }
 
 .bottom_logo{
-    width: 5rem;
+    width: 4rem;
 }
 
 .socials{
@@ -298,6 +298,7 @@ body{
     text-align: center;
     font-size: 1.1rem;
     color: #4C545C ;
+   
 }
 
 .link{
