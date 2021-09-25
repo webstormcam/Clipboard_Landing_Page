@@ -213,6 +213,7 @@ body{
 .features{
     display: flex;
     flex-direction: column;
+    align-items: center;
     
 }
 
@@ -242,6 +243,12 @@ body{
     text-align: center;
     line-height: 1.5rem;
     color: #9EABB2;
+}
+
+.companies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
