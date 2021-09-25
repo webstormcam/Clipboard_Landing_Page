@@ -277,6 +277,9 @@ body{
    margin-top: 10rem;
    display: flex;
    flex-direction: column;
+   align-items: center;
+   margin-bottom: 2rem;
+   
 }
 
 .bottom_logo{
@@ -286,6 +289,19 @@ body{
 .socials{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    width: 160px;
+}
+
+.links{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #4C545C ;
+}
+
+.link{
+    margin-bottom: 2rem;
 }
 
 
@@ -451,6 +467,14 @@ br{
     
     flex-direction: row;
  }
+
+
+
+ .links{
+  display: flex;
+  flex-direction: row;
+}
+
 
 }
 
