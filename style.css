@@ -465,7 +465,7 @@ br{
 
 .bottom{
     margin-top: 10rem;
-    
+    align-self: flex-end;
     flex-direction: row;
  }
 
