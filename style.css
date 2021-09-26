@@ -312,6 +312,15 @@ height: 40vh;
     width: 160px;
 }
 
+.social{
+    filter: invert(33%) sepia(7%) saturate(744%) hue-rotate(169deg) brightness(93%) contrast(90%);
+}
+
+.social:hover{
+    cursor: pointer;
+    filter: invert(60%) sepia(59%) saturate(483%) hue-rotate(121deg) brightness(90%) contrast(96%);
+}
+
 .links{
     margin-top: 2rem;
     text-align: center;
