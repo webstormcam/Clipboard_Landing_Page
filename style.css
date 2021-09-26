@@ -98,6 +98,17 @@ body{
     border-bottom: 3px solid #3749d3;
 }
 
+
+.purp:hover{
+background-color: #a3aadb;
+border: 1px solid #a3aadb;
+}
+
+.turq:hover{
+background-color: #98d4cc;
+border: 1px solid #98d4cc;
+}
+
 #section2{
     width: 100%;
     display: flex;
@@ -178,6 +189,7 @@ body{
 
 .section_3_top_words{
     margin-bottom: 3.5rem;
+    text-align: center;
 }
 
 .device_pic{
@@ -310,6 +322,11 @@ height: 40vh;
 
 .link{
     margin-bottom: 2rem;
+}
+
+.link:hover{
+cursor: pointer;
+color: #26BBA4;
 }
 
 .bottom_items{
@@ -452,9 +469,7 @@ height: 40vh;
 
 }
 
-.section_3_top_words{
-    max-width: 800px;
-}
+
 
 .features{
     flex-direction: row;
@@ -498,7 +513,7 @@ br{
  }
 
  .bottom_items{
-     width: 900px;
+     width: 1000px;
      flex-direction: row;
      align-items: center;
      justify-content: space-between;
@@ -508,6 +523,8 @@ br{
  .section_5_top_words{
     max-width: 700px;
 }
+
+
 
 
  .end{
