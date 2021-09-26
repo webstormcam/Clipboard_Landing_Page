@@ -193,7 +193,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    min-height: 95vh;
+    min-height: 50vh;
     
    
     
@@ -261,6 +261,7 @@ body{
     width: 100%;
     /* display: flex;
     justify-content: center; */
+    
    
 }
 .section5_items{
@@ -496,6 +497,10 @@ br{
      align-items: center;
      justify-content: space-between;
      
+ }
+
+ .end{
+     margin-top: 15rem;
  }
 
 
